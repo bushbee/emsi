@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/linkEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter link"
+        android:background="#FFFFFF"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/openWebsiteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Website"
+        android:layout_below="@id/linkEditText"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter location"
+        android:background="#FFFFFF"
+        android:padding="8dp"
+        android:layout_below="@id/openWebsiteButton"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/openMapButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Google Maps"
+        android:layout_below="@id/locationEditText"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter message"
+        android:background="#FFFFFF"
+        android:padding="8dp"
+        android:layout_below="@id/openMapButton"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/shareTextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Text"
+        android:layout_below="@id/messageEditText"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
